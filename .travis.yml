@@ -20,7 +20,7 @@ before_script:
   - docker run --net=host --name=contrail-api -d opencontrail/config:2.20 /usr/bin/contrail-api
 
 install:
-  - wget https://github.com/Juniper/contrail-go-api/releases/download/1.0.0/contrail-go-api-generated-types-r2.20.tar.gz
+  - wget https://github.com/ttsubo2000/contrail-go-api/releases/download/1.0.0/contrail-go-api-generated-types-r2.20.tar.gz
   - tar -zxvf contrail-go-api-generated-types-r2.20.tar.gz --strip-components=3
   - go get github.com/stretchr/testify
   - go get github.com/pborman/uuid

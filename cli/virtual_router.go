@@ -13,10 +13,10 @@ import (
 	"text/tabwriter"
 	"text/template"
 
-	"github.com/Juniper/contrail-go-api"
-	"github.com/Juniper/contrail-go-api/analytics"
-	"github.com/Juniper/contrail-go-api/config"
-	"github.com/Juniper/contrail-go-api/types"
+	"github.com/ttsubo2000/contrail-go-api"
+	"github.com/ttsubo2000/contrail-go-api/analytics"
+	"github.com/ttsubo2000/contrail-go-api/config"
+	"github.com/ttsubo2000/contrail-go-api/types"
 )
 
 type virtualRouterListOptions struct {

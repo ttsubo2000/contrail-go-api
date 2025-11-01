@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/Juniper/contrail-go-api"
-	"github.com/Juniper/contrail-go-api/types"
+	"github.com/ttsubo2000/contrail-go-api"
+	"github.com/ttsubo2000/contrail-go-api/types"
 	"github.com/pborman/uuid"
 )
 
